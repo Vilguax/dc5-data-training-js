@@ -1,4 +1,3 @@
-// function that check if year is bissextile or not
 function estBissextile(annee) {
     if (annee % 4 == 0 && annee % 100 != 0 || annee % 400 == 0) {
         return true;
